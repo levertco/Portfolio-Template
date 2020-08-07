@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+:visited {
+  color: whitesmoke;
+}
+
+#full-site {
+  height: 100%;
+  width: 100vw
+}
+
+.full-page {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  position: relative;
+}
+
+.smoke-text {
+  color: whitesmoke;
+}
+
+.nav-button {
+  padding: 1em;
+  margin:0 1em;
+  font-size: 1.5em;
+}
+
+#nav-bar {
+  background-color: rgb(211, 211, 211, 0.3);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 100;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.column-flex {
+  flex-direction: column;
+}
+
+.text-shadow {
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.keyboard-background {
+  background-image: url('./images/1331208.jpg');
+  background-size: cover;
+}
+
+.circuit-background {
+  background-image: url('./images/aboutme.jpg');
+  background-size: cover;
+}
+
+.main-title {
+  font-size: 5em;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 2em;
+}
+
+#landing-title-box {
+font-family:sans-serif;
+width: 35vw;
+margin: auto;
+position: relative;
+top: 20vh;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.green {
+  background-color: lightgreen;
+}
